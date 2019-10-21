@@ -8,14 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* react_native_jsi_whiteroomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* react_native_jsi_whiteroomTests.m */; };
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* react_native_jsi_whiteroomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* react_native_jsi_whiteroomTests.m */; };
+		3B5B0963235B7E9700170697 /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B0960235B7E9600170697 /* Test.cpp */; };
+		3B5B0964235B7E9700170697 /* TestBinding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B0961235B7E9600170697 /* TestBinding.cpp */; };
 		6C95584F13FBA5CFAED0FB20 /* libPods-react_native_jsi_whiteroom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91D8228FFC447D75CA2E965A /* libPods-react_native_jsi_whiteroom.a */; };
 		77E5259141201CB2707646EF /* libPods-react_native_jsi_whiteroom-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6DF5116D16D7C3E65AF3CA /* libPods-react_native_jsi_whiteroom-tvOSTests.a */; };
 		8A441DD31CC8FD0D7D4E3F98 /* libPods-react_native_jsi_whiteroom-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E769E4777DF22149E6468D /* libPods-react_native_jsi_whiteroom-tvOS.a */; };
@@ -46,7 +48,7 @@
 		00E356F21AD99517003FC87E /* react_native_jsi_whiteroomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = react_native_jsi_whiteroomTests.m; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* react_native_jsi_whiteroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = react_native_jsi_whiteroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = react_native_jsi_whiteroom/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = react_native_jsi_whiteroom/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = react_native_jsi_whiteroom/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = react_native_jsi_whiteroom/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = react_native_jsi_whiteroom/Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,10 @@
 		2A6DF5116D16D7C3E65AF3CA /* libPods-react_native_jsi_whiteroom-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_jsi_whiteroom-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* react_native_jsi_whiteroom-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react_native_jsi_whiteroom-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* react_native_jsi_whiteroom-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "react_native_jsi_whiteroom-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5B095F235B7E9600170697 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		3B5B0960235B7E9600170697 /* Test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Test.cpp; sourceTree = "<group>"; };
+		3B5B0961235B7E9600170697 /* TestBinding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestBinding.cpp; sourceTree = "<group>"; };
+		3B5B0962235B7E9600170697 /* TestBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestBinding.h; sourceTree = "<group>"; };
 		3C8C76C9102EE1510238DBED /* Pods-react_native_jsi_whiteroom-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_jsi_whiteroom-tvOS.release.xcconfig"; path = "Target Support Files/Pods-react_native_jsi_whiteroom-tvOS/Pods-react_native_jsi_whiteroom-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		3F4DB232B98FACE547336978 /* Pods-react_native_jsi_whiteroom-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_jsi_whiteroom-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_jsi_whiteroom-tvOSTests/Pods-react_native_jsi_whiteroom-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B2EBA9E09644B1F15DB1B85 /* Pods-react_native_jsi_whiteroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_jsi_whiteroom.debug.xcconfig"; path = "Target Support Files/Pods-react_native_jsi_whiteroom/Pods-react_native_jsi_whiteroom.debug.xcconfig"; sourceTree = "<group>"; };
@@ -125,9 +131,13 @@
 		13B07FAE1A68108700A75B9A /* react_native_jsi_whiteroom */ = {
 			isa = PBXGroup;
 			children = (
+				3B5B0960235B7E9600170697 /* Test.cpp */,
+				3B5B095F235B7E9600170697 /* Test.h */,
+				3B5B0961235B7E9600170697 /* TestBinding.cpp */,
+				3B5B0962235B7E9600170697 /* TestBinding.h */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -194,7 +204,6 @@
 				AFC2D8163CEC0A551E5718F6 /* Pods-react_native_jsi_whiteroomTests.debug.xcconfig */,
 				EDEA58599BB209CB4F98B3D1 /* Pods-react_native_jsi_whiteroomTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +317,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -528,8 +538,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				3B5B0963235B7E9700170697 /* Test.cpp in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				3B5B0964235B7E9700170697 /* TestBinding.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,7 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
-				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -626,10 +638,17 @@
 			baseConfigurationReference = 5B2EBA9E09644B1F15DB1B85 /* Pods-react_native_jsi_whiteroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = react_native_jsi_whiteroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -637,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = react_native_jsi_whiteroom;
+				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -646,9 +666,16 @@
 			baseConfigurationReference = 285E30097B234B0DC0EFCD87 /* Pods-react_native_jsi_whiteroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = react_native_jsi_whiteroom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -656,6 +683,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = react_native_jsi_whiteroom;
+				USER_HEADER_SEARCH_PATHS = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
